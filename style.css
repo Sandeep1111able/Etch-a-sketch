@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    display: grid;
+    border: 1px solid red;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+button {
+    padding: 0.5em 1em;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    margin-bottom: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grid {}
